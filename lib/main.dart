@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:gastoscontrol/widgets/graph_widget.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
  
 void main() => runApp(MyApp());
  
@@ -32,6 +33,15 @@ class _HomePageState extends State<HomePage> {
 @override
   void initState() {
     super.initState();
+   
+    Firestore.instance
+    .collection('expenses')
+    .where("month", isEqualTo: currentPage + 1)
+    .snapshots()
+    .listen((data) =>
+        data.documents.forEach((doc) => print(doc)));
+
+
     _controlador = PageController(
       initialPage: currentPage,
       viewportFraction: 0.45,
