@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1069060946631",
+    "firebase_url": "https://gastoscontrol-91d73.firebaseio.com",
+    "project_id": "gastoscontrol-91d73",
+    "storage_bucket": "gastoscontrol-91d73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069060946631:android:240c78f02400a4d1b11ce2",
+        "android_client_info": {
+          "package_name": "com.example.gastoscontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069060946631-k59s303nbn579gh6ccm73h7s32l0kfng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtYWu7G2TDK-__r7azxOK9JxtuIbUI_QQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069060946631-k59s303nbn579gh6ccm73h7s32l0kfng.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1069060946631-okaniqbh36jothu6e0r9dmobrn14t3tg.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gastoscontrol"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
